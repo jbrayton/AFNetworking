@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2120264D1F01B2C700219EA5 /* AFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 2120263A1F01B2C700219EA5 /* AFHTTPClient.h */; };
+		2120264D1F01B2C700219EA5 /* AFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 2120263A1F01B2C700219EA5 /* AFHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2120264E1F01B2C700219EA5 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2120263B1F01B2C700219EA5 /* AFHTTPClient.m */; };
-		2120264F1F01B2C700219EA5 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2120263C1F01B2C700219EA5 /* AFHTTPRequestOperation.h */; };
+		2120264F1F01B2C700219EA5 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2120263C1F01B2C700219EA5 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		212026501F01B2C700219EA5 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2120263D1F01B2C700219EA5 /* AFHTTPRequestOperation.m */; };
-		212026511F01B2C700219EA5 /* AFImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2120263E1F01B2C700219EA5 /* AFImageRequestOperation.h */; };
+		212026511F01B2C700219EA5 /* AFImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2120263E1F01B2C700219EA5 /* AFImageRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		212026521F01B2C700219EA5 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2120263F1F01B2C700219EA5 /* AFImageRequestOperation.m */; };
-		212026531F01B2C700219EA5 /* AFJSONRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 212026401F01B2C700219EA5 /* AFJSONRequestOperation.h */; };
+		212026531F01B2C700219EA5 /* AFJSONRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 212026401F01B2C700219EA5 /* AFJSONRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		212026541F01B2C700219EA5 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 212026411F01B2C700219EA5 /* AFJSONRequestOperation.m */; };
-		212026551F01B2C700219EA5 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 212026421F01B2C700219EA5 /* AFNetworkActivityIndicatorManager.h */; };
+		212026551F01B2C700219EA5 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 212026421F01B2C700219EA5 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		212026561F01B2C700219EA5 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 212026431F01B2C700219EA5 /* AFNetworkActivityIndicatorManager.m */; };
 		212026571F01B2C700219EA5 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 212026441F01B2C700219EA5 /* AFNetworking.h */; };
-		212026581F01B2C700219EA5 /* AFPropertyListRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 212026451F01B2C700219EA5 /* AFPropertyListRequestOperation.h */; };
+		212026581F01B2C700219EA5 /* AFPropertyListRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 212026451F01B2C700219EA5 /* AFPropertyListRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		212026591F01B2C700219EA5 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 212026461F01B2C700219EA5 /* AFPropertyListRequestOperation.m */; };
-		2120265A1F01B2C700219EA5 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 212026471F01B2C700219EA5 /* AFURLConnectionOperation.h */; };
+		2120265A1F01B2C700219EA5 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 212026471F01B2C700219EA5 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2120265B1F01B2C700219EA5 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 212026481F01B2C700219EA5 /* AFURLConnectionOperation.m */; };
-		2120265C1F01B2C700219EA5 /* AFXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 212026491F01B2C700219EA5 /* AFXMLRequestOperation.h */; };
+		2120265C1F01B2C700219EA5 /* AFXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 212026491F01B2C700219EA5 /* AFXMLRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2120265D1F01B2C700219EA5 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2120264A1F01B2C700219EA5 /* AFXMLRequestOperation.m */; };
-		2120265E1F01B2C700219EA5 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2120264B1F01B2C700219EA5 /* UIImageView+AFNetworking.h */; };
+		2120265E1F01B2C700219EA5 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2120264B1F01B2C700219EA5 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2120265F1F01B2C700219EA5 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2120264C1F01B2C700219EA5 /* UIImageView+AFNetworking.m */; };
 		21E699191F01B29E00A7AD64 /* AFNetworkingCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E699171F01B29E00A7AD64 /* AFNetworkingCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -116,17 +116,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				212026581F01B2C700219EA5 /* AFPropertyListRequestOperation.h in Headers */,
-				2120265C1F01B2C700219EA5 /* AFXMLRequestOperation.h in Headers */,
-				212026571F01B2C700219EA5 /* AFNetworking.h in Headers */,
-				2120265E1F01B2C700219EA5 /* UIImageView+AFNetworking.h in Headers */,
 				2120264D1F01B2C700219EA5 /* AFHTTPClient.h in Headers */,
-				21E699191F01B29E00A7AD64 /* AFNetworkingCarthage.h in Headers */,
 				2120264F1F01B2C700219EA5 /* AFHTTPRequestOperation.h in Headers */,
-				212026531F01B2C700219EA5 /* AFJSONRequestOperation.h in Headers */,
-				2120265A1F01B2C700219EA5 /* AFURLConnectionOperation.h in Headers */,
 				212026511F01B2C700219EA5 /* AFImageRequestOperation.h in Headers */,
+				212026531F01B2C700219EA5 /* AFJSONRequestOperation.h in Headers */,
 				212026551F01B2C700219EA5 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				212026581F01B2C700219EA5 /* AFPropertyListRequestOperation.h in Headers */,
+				2120265A1F01B2C700219EA5 /* AFURLConnectionOperation.h in Headers */,
+				2120265C1F01B2C700219EA5 /* AFXMLRequestOperation.h in Headers */,
+				2120265E1F01B2C700219EA5 /* UIImageView+AFNetworking.h in Headers */,
+				212026571F01B2C700219EA5 /* AFNetworking.h in Headers */,
+				21E699191F01B29E00A7AD64 /* AFNetworkingCarthage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
