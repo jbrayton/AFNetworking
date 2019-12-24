@@ -299,6 +299,7 @@ static BOOL AFSecKeyIsEqualToKey(SecKeyRef key1, SecKeyRef key2) {
     
 #if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
     if (_backgroundTaskIdentifier) {
+        NSLog(@"AFURLConnectionOperation -- in dealloc -- ending backgroundTask %ld", _backgroundTaskIdentifier);
         [[UIApplication sharedApplication] endBackgroundTask:_backgroundTaskIdentifier];
         _backgroundTaskIdentifier = UIBackgroundTaskInvalid;
     }
@@ -374,10 +375,12 @@ static BOOL AFSecKeyIsEqualToKey(SecKeyRef key1, SecKeyRef key2) {
             if (strongSelf) {
                 [strongSelf cancel];
                 
+                NSLog(@"in exp handler -- cancelling background task -- %ld", strongSelf.backgroundTaskIdentifier);
                 [application endBackgroundTask:strongSelf.backgroundTaskIdentifier];
                 strongSelf.backgroundTaskIdentifier = UIBackgroundTaskInvalid;
             }
         }];
+        NSLog(@"began background task -- %ld", self.backgroundTaskIdentifier);
     }
     [self.lock unlock];
 }
